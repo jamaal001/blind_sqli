@@ -25,5 +25,5 @@ This tool is intended for educational purposes only. The author is not responsib
 3. ``` bash
    paramspider -d testphp.vulnweb.com
    cat urls.txt | sed 's/FUZZ//g' > final.txt
-   python3 test.py -t final.txt -w xor.txt
+   python3 main.py -t final.txt -w xor.txt
    
